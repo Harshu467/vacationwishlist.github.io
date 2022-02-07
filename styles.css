@@ -1,0 +1,68 @@
+h1,h2,h3,h4,p,li,ul,title
+{
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3,h4,p
+{
+    margin-bottom: 1em;
+}
+label
+{
+    display: block;
+    margin-bottom: 1em;
+}
+input,textarea, #destination_form button
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #666;
+    padding: 10px;
+    box-sizing: border-box;
+}
+img
+{
+    max-width: 100%;
+}
+body
+{
+    font-family:Arial;
+    color:#333;
+}
+main article
+{
+    width: 45%;
+}
+main form
+{
+    width: 40%;
+}
+#title
+{
+    text-align: center;
+}
+header
+{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: large;
+    margin-bottom: 20px;
+}
+main
+{
+    max-width: 800px;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+.card
+{
+    padding: 20px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations WishList</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>Vacation WishList
+        <p>Found Exciting places to visit on your next Vacation???Use My Vacation WishList toadd them in your Wish List
+        </p>
+    </header>
+    <main>
+        <form id="destination_form">
+
+            <label for="Name">Destination Name</label>
+            <input type="text" id="Name" placeholder="Destination Name" required>
+
+            <label for="Location">Destination Location</label>
+            <input type="text" id="Location" placeholder="Destination" required>
+
+            <label for="Photo">Destination Photo</label>
+            <input type="url" id="Photo" placeholder="Provide URL">
+
+            <label for="Description">Destination Description</label>
+            <textarea id="Description" placeholder="Describe Destination"> </textarea>
+            <button type="submit">Add To WishList</button>
+        </form>
+        <article>
+            <h2 id="title">ENTER DESTINATION DETAILS</h2>
+            <div id="destination_container">
+                <div class="card">
+                    <img src="images\signpost.jpg">
+                    <div class="card-body">
+                        <h3>Destination Name</h3>
+                        <h4>Destination Location</h4>
+                        <p class="card-text">Destination Description</p>
+                        <button>Remove</button>
+                    </div>
+
+            </div>
+            </div>
+        </article>
+    </main>
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+    <video width="50%" autoplay>
+        <link href="https://www.youtube.com/watch?v=7vQsBI6C8Qk">
+    </video>
+</body>
+
+</html>
