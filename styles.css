@@ -12,6 +12,10 @@ label
 {
     display: block;
     margin-bottom: 1em;
+    color: #efefef;
+    font:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:run-in;
 }
 input,textarea, #destination_form button
 {
@@ -30,6 +34,7 @@ body
 {
     font-family:Arial;
     color:#333;
+    background: #333;
 }
 main article
 {
@@ -65,4 +70,12 @@ main
     padding: 20px;
     background-color: #efefef;
     margin-bottom: 20px;
+}
+#footer
+{
+    margin-top: 30px;
+    background: #666;
+    padding: 10px;
+    text-align: center;
+    color: #efefef;
 }
